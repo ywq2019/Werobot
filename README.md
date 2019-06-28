@@ -1,2 +1,2 @@
-# Werobot
-微信自动回复机器人
+# WeRobot
+wecaht auto reply robot

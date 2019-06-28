@@ -57,8 +57,9 @@ def mm_reply(msg):
 
 if __name__ == '__main__':
     # itchat.auto_login(hotReload=True, statusStorageDir='newInstance.pkl')
-    itchat.auto_login(hotReload=False)
+    itchat.auto_login(hotReload=True)
 
     # 获取自己的UserName
-    myUserName = itchat.get_friends(update=True)[0]["UserName"]
+    myUserName = itchat.get_friends(update=True)[0]["NickName"]
+    print(myUserName)
     itchat.run(debug=True)
